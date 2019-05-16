@@ -2,6 +2,15 @@
 // Variables
 // ==============================
 
+
+// ========== font family ========== //
+@font-face {  
+  font-family: 'Bitstream Vera Sans Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/lib/fonts/VeraMono.woff') format("woff");
+}
+
 // ========== Theme Color ========== //
 // Theme color config from `polarbear/_config.yml`
 $theme-color-config: hexo-theme-config('theme.color');
@@ -31,9 +40,10 @@ $deputy-color: nth($theme-color-list, 2) !default;
 
 // ========== Color ========== //
 $black: #0a0a0a !default;
+$dark-navy: #282c34 !default;
 $white: #fefefe !default;
 $light-gray: #eee !default;
-$gray: #cacaca !default;
+$gray: #abb2bf !default;
 $dark-gray: #aaa !default;
 
 
@@ -61,7 +71,7 @@ $global-content-margin: 0 auto !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: "Open Sans","PingFang SC","Hiragino Sans GB","Microsoft Yahei","Microsoft Jhenghei",sans-serif !default;
+$global-font-family: "나눔고딕", NanumGothic, "Nanum Gothic", AppleSDGothic, "Open Sans", sans-serif !default;
 
 // Background color of the site.
 $global-background: $white !default;
@@ -142,14 +152,13 @@ $content-table-border-color: darken($deputy-color, 3%) !default;
 $content-margin-bottom: 40px !default;
 
 // ========== Code ========== //
-// Color of the code.
-$code-color: #000 !default;
 
 // Font size of code.
-$code-font-size: 13px !default;
+$code-font-size: 15px !default;
+
 
 // Font family of the code.
-$code-font-family: "Open Sans","PingFang SC","Hiragino Sans GB","Microsoft Yahei","Microsoft Jhenghei",sans-serif !default;
+$code-font-family:"Bitstream Vera Sans Mono", "Open Sans", sans-serif !default;
 
 // Color of code highlight, solarized.
 $code-highlight-color: (
@@ -186,7 +195,6 @@ $code-type-list: (
 
 // Color of the code background.
 $code-background: $deputy-color !default;
-
 
 // ========== Pagination ========== //
 // Padding of the pagination.
