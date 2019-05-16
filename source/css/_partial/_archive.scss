@@ -21,7 +21,8 @@
     .archive-name {
       margin: 0;
       display: inline-block;
-      font-weight: 400;
+      font-weight: 200;
+      font-family: "Open Sans";
       font-size: $archive-name-font-size;
       line-height: $archive-name-font-size + 2px;
     }
