@@ -1,13 +1,13 @@
-code, pre {
+.code, pre {
   padding: 7px;
   font-size: $code-font-size;
   font-family: $code-font-family;
-  background: $code-background;
+  background: $dark-navy;
 }
 
-code {
+.code {
   padding: 3px 5px;
-  color: $code-color;
+  color: $gray;
 }
 
 .highlight {
@@ -24,9 +24,8 @@ code {
       left: 0;
       padding: 2px 7px;
       font-size: $code-font-size;
-      font-weight: bold;
       color: $gray;
-      background: darken($code-background, 3%);
+      background: darken($dark-navy, 3%);
       content: 'Code';
     }
   }
