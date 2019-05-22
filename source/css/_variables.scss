@@ -160,17 +160,6 @@ $code-font-size: 13px !default;
 // Font family of the code.
 $code-font-family:"Bitstream Vera Sans Mono", "Open Sans", sans-serif !default;
 
-// Color of code highlight, solarized.
-$code-highlight-color: (
-  comment: #93a1a1,
-  keyword: #859900,
-  number: #2aa198,
-  name: #268bd2,
-  attribute: #b58900,
-  symbol: #cb4b16,
-  built_in: #dc322f
-) !default;
-
 // Code type list.
 $code-type-list: (
   html: "HTML",
