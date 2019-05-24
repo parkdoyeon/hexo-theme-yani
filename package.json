@@ -1,24 +1,24 @@
 {
-  "name": "hexo-theme-polarbear",
+  "name": "hexo-theme-yani",
   "version": "1.1",
-  "description": "A light theme base on Even, inspired by Giuem",
+  "description": "Customized based on Polarbear",
   "main": "index.js",
   "keywords": [
     "responsive",
     "widget",
     "simple",
-    "light"
+    "atom-styled-code"
   ],
-  "author": "Frost Fan",
+  "author": "Doyeon Park",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahonn/hexo-theme-polarbear.git"
+    "url": "git+https://github.com/ahonn/hexo-theme-yani.git"
   },
   "bugs": {
-    "url": "https://github.com/ahonn/hexo-theme-polarbear/issues"
+    "url": "https://github.com/ahonn/hexo-theme-yani/issues"
   },
-  "homepage": "https://github.com/ahonn/hexo-theme-polarbear#readme",
+  "homepage": "https://github.com/ahonn/hexo-theme-yani#readme",
   "devDependencies": {
     "eslint": "^3.12.0"
   }
