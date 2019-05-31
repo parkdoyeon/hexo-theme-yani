@@ -5,19 +5,28 @@
 
   var disqus_title = "{{ page.title|addslashes }}";
 
+  // var disqus = {
+  //   load : function disqus(){
+  //       if(typeof DISQUS !== 'object') {
+  //         (function () {
+  //         var s = document.createElement('script'); s.async = true;
+  //         s.type = 'text/javascript';
+  //         s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  //         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  //         }());
+  //         $('#load-disqus').remove(); ///Delete Button
+  //       }
+  //   }
+  // }
 
-  var disqus = {
-    load : function disqus(){
-        if(typeof DISQUS !== 'object') {
-          (function () {
-          var s = document.createElement('script'); s.async = true;
-          s.type = 'text/javascript';
-          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-          }());
-          $('#load-disqus').remove(); ///加载后移除按钮
-        }
-    }
+  if(typeof DISQUS !== 'object') {
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    $('#load-disqus').remove(); ///Delete Button
   }
 
   {% if page.comments %}

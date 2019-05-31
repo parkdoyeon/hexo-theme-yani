@@ -1,9 +1,9 @@
 {% if page.comments and not is_home() %}
   <div class="comments" id="comments">
     {% if config.disqus_shortname %}
-    <div style="text-align:center;">
+    <!--<div style="text-align:center;">
         <button class="btn" id="load-disqus" onclick="disqus.load();">load Disqus review</button>
-    </div>
+    </div>-->
       <div id="disqus_thread">
         <noscript>
           Please enable JavaScript to view the
