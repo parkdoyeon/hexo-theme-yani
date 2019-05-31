@@ -2,7 +2,7 @@
   <div class="comments" id="comments">
     {% if config.disqus_shortname %}
     <div style="text-align:center;">
-        <button class="btn" id="load-disqus" onclick="disqus.load();">加载 Disqus 评论</button>
+        <button class="btn" id="load-disqus" onclick="disqus.load();">load Disqus review</button>
     </div>
       <div id="disqus_thread">
         <noscript>
