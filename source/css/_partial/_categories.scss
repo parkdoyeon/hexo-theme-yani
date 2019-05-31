@@ -9,13 +9,13 @@
       margin: 0 auto;
       padding: 1em 0 1em 0;
       max-width: 1000px;
-      border-bottom: 1px solid rgba(0,0,0,.10);
+      border-bottom: 1px solid rgba(0,0,0,.05);
   }
 
   li {
       line-height: 1.6;
       display: inline;
-      padding: 1em;
+      margin: auto 1em;
       
       .current {
           color: #5A5A5A;
