@@ -26,7 +26,6 @@
     s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
-    $('#load-disqus').remove(); ///Delete Button
   }
 
   {% if page.comments %}
