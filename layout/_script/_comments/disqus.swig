@@ -30,9 +30,8 @@
 
   {% if page.comments %}
     var disqus_config = function () {
-        this.page.url = disqus_url;
+        this.page.url = '{{ url }}';
         this.page.identifier = disqus_identifier;
-        this.page.title = disqus_title;
     };
   {% endif %}
 
