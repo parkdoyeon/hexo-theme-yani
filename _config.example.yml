@@ -49,16 +49,13 @@ theme:
 # Third Party Services Settings
 # ===========================================
 
-# Baidu Analytics
+# Analytics
 baidu_analytics:
-# Google Analytics
 google_analytics:
+google_site_verification:
 
-# Duoshuo
-duoshuo_shortname:
 # Disqus
 disqus_shortname:
-
 
 # ===========================================
 # Version

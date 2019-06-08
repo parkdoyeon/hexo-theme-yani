@@ -2,6 +2,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
 
+{% if config.google_site_verification %}
+<meta name="google-site-verification" content="{{ config.google_site_verification }}" />
+{% endif %}
+
 {# Disable transformation #}
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
