@@ -45,6 +45,13 @@ theme:
   color: Default
   fancybox: false
 
+math:
+  enable: true
+  engine: mathjax
+
+highlight:
+  enable: false
+
 # ===========================================
 # Third Party Services Settings
 # ===========================================
