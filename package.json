@@ -21,5 +21,6 @@
   "homepage": "https://github.com/ahonn/hexo-theme-yani#readme",
   "devDependencies": {
     "eslint": "^3.12.0"
-  }
+  },
+  "dependencies": {}
 }
