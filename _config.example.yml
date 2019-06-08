@@ -59,7 +59,10 @@ highlight:
 # Analytics
 baidu_analytics:
 google_analytics:
+
+# Site Verification
 google_site_verification:
+naver_site_verification:
 
 # Disqus
 disqus_shortname:
