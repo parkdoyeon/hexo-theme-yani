@@ -7,7 +7,7 @@
 {% endif %}
 
 {% if config.naver_site_verification %}
-<meta name="google-site-verification" content="{{ config.naver_site_verification }}" />
+<meta name="naver-site-verification" content="{{ config.naver_site_verification }}" />
 {% endif %}
 
 {# Disable transformation #}
