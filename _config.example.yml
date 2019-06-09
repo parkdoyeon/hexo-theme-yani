@@ -45,20 +45,27 @@ theme:
   color: Default
   fancybox: false
 
+math:
+  enable: true
+  engine: mathjax
+
+highlight:
+  enable: false
+
 # ===========================================
 # Third Party Services Settings
 # ===========================================
 
-# Baidu Analytics
+# Analytics
 baidu_analytics:
-# Google Analytics
 google_analytics:
 
-# Duoshuo
-duoshuo_shortname:
+# Site Verification
+google_site_verification:
+naver_site_verification:
+
 # Disqus
 disqus_shortname:
-
 
 # ===========================================
 # Version
