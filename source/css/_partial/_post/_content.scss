@@ -7,10 +7,10 @@
 
   @for $i from 4 through 6 {
     h#{$i} {
-      font-size: 1em;
-      font-weight: 400;
+      font-size: 1.2em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
       font-family: $global-font-family;
-      margin-top: 1.1em;
     }
   }
 
