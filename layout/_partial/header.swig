@@ -6,7 +6,7 @@
     <nav id="nav-top">
         {% if theme.menu %}
             <ul id="menu-top" class="nav-top-items">
-                {% for name, path in theme.menu %}
+                {% for name, path in config.menu %}
                     <li class="menu-item">
                         <a href="{{ url_for(path) }}">
                             {% set itemName = 'menu.' + name.toLowerCase() %}
