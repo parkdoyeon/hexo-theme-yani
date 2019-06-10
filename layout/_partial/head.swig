@@ -11,8 +11,8 @@
 {% endif %}
 
 {# Website favicon #}
-{% if theme.favicon %}
-  <link rel="shortcut icon" type="image/x-icon" href="{{ url_for(theme.favicon) }}?v={{ theme.version }}" />
+{% if config.favicon %}
+  <link rel="shortcut icon" type="image/x-icon" href="{{ url_for(config.favicon) }}?v={{ theme.version }}" />
 {% endif %}
 
 {# Canonical, good for google search engine #}
