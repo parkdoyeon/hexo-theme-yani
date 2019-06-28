@@ -4,23 +4,26 @@
   width: 90%;
   display: block;
   font-size: 15px;
+
   
   ul {
       margin: 0 auto;
       padding: 1em 0 1em 0;
       max-width: 1000px;
       border-bottom: 1px solid rgba(0,0,0,.05);
+            
+      @media (max-width: 767px){
+        width: 90%;
+      }
   }
 
   li {
-      line-height: 1.6;
-      display: inline;
-      margin: auto 1em;
-      
-      .current {
+      display: inline-block;
+      margin: 0.7em 1em;
+      .active {
           color: #5A5A5A;
           padding-bottom: 22px;
-          border-bottom: 1px solid #5A5A5A;
+          border-bottom: 2px solid #0066ffbb;
       }
   }
 }
