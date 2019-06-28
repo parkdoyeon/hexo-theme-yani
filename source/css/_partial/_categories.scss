@@ -4,7 +4,6 @@
   width: 90%;
   display: block;
   font-size: 15px;
-
   
   ul {
       margin: 0 auto;
@@ -20,9 +19,9 @@
   li {
       display: inline-block;
       margin: 0.7em 1em;
-      .active {
+      .on {
           color: #5A5A5A;
-          padding-bottom: 22px;
+          padding-bottom: 17px;
           border-bottom: 2px solid #0066ffbb;
       }
   }

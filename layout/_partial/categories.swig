@@ -1,10 +1,11 @@
-{{ list_categories({style: 'list', separator: '', depth: 0, show_count: false}) }}
-{% for item in config.category_map %}
-<div id="post-categories">
-    <ul class="category-list">
-        <li>
-            <a href="{{ item }}">{{ config.category_map.getOwnPropertyNames(item) }}</a>
-        </li>
-    </ul>
-</div>
+<ul class="category-list">
+{% for item in site.categories.data %}
+    <li>
+    {% if page.path.substr(0, page.path.indexOf('/')) == config.category_map[item.name] %}
+        <a href="/{{ config.category_map[item.name] }}" class="on" >{{ item.name }}</a>
+    {% else %}
+        <a href="/{{ config.category_map[item.name] }}">{{ item.name }}</a>
+    {% endif %}
+    </li>
 {% endfor %}
+</ul>
