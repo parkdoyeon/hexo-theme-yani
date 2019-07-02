@@ -19,29 +19,7 @@
   li {
     display: inline-block;
     margin: 0.7em 1em;
-
-    // ::after {
-    //   content: '';
-    //   display: block;
-    //   color: #0066ffbb;
-    //   width: 0;
-    //   transition: width .3s;
-    // }
-    // :hover::after {
-    //   width: 100%;
-    //   padding-bottom: 17px;
-    // }
-
-    // .on {
-    //   content: '';
-    //   padding-bottom: 17px;
-    //   color: #0066ffbb;
-    //   display: block;
-    //   width: 100%;
-    //   //border-bottom: 2px solid #0066ffbb;
-    // }
-
-
+    
     a::after {
       content: '';
       display: block;
